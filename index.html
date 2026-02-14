@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>حجز مواعيد عيادة دكتور ماهر غانم - علاج السكر والقدم السكري</title>
+    <title>عيادة دكتور ماهر غانم - علاج السكر والقدم السكري</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +19,19 @@
                 <h1>عيادة دكتور ماهر غانم</h1>
             </div>
             <p class="subtitle">متخصص في علاج السكر والقدم السكري</p>
+            
+            <!-- Navigation Menu -->
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link active">
+                    <i class="fas fa-calendar-plus"></i> حجز جديد
+                </a>
+                <a href="patients.html" class="nav-link">
+                    <i class="fas fa-users"></i> المرضى
+                </a>
+                <a href="calendar.html" class="nav-link">
+                    <i class="fas fa-calendar-alt"></i> التقويم
+                </a>
+            </nav>
         </div>
         <div class="designer-credit">
             <span>تصميم وتنفيذ:</span>
@@ -28,6 +41,18 @@
 
     <!-- Main Content -->
     <main>
+        <!-- Clinic Info Card -->
+        <section class="clinic-info">
+            <div class="info-card">
+                <h3><i class="fas fa-hospital"></i> معلومات العيادة</h3>
+                <div class="info-details">
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>العنوان:</strong> شارع فلسطين - ساحة بيروت - بناية ايلول</p>
+                    <p><i class="fas fa-clock"></i> <strong>دوام العيادة:</strong> من 3 عصراً حتى 12 منتصف الليل</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero Section -->
         <section class="hero">
             <h2>احجز موعدك الآن</h2>
             <p>احجز موعدك بسهولة في عيادتنا المتخصصة في علاج السكر والقدم السكري</p>
@@ -81,18 +106,6 @@
                         </label>
                         <select id="appointmentTime" name="appointmentTime" required>
                             <option value="">اختر الوقت</option>
-                            <option value="09:00">09:00 صباحاً</option>
-                            <option value="09:30">09:30 صباحاً</option>
-                            <option value="10:00">10:00 صباحاً</option>
-                            <option value="10:30">10:30 صباحاً</option>
-                            <option value="11:00">11:00 صباحاً</option>
-                            <option value="11:30">11:30 صباحاً</option>
-                            <option value="12:00">12:00 ظهراً</option>
-                            <option value="12:30">12:30 ظهراً</option>
-                            <option value="13:00">01:00 ظهراً</option>
-                            <option value="13:30">01:30 ظهراً</option>
-                            <option value="14:00">02:00 ظهراً</option>
-                            <option value="14:30">02:30 ظهراً</option>
                             <option value="15:00">03:00 عصراً</option>
                             <option value="15:30">03:30 عصراً</option>
                             <option value="16:00">04:00 عصراً</option>
@@ -100,6 +113,18 @@
                             <option value="17:00">05:00 عصراً</option>
                             <option value="17:30">05:30 عصراً</option>
                             <option value="18:00">06:00 مساءً</option>
+                            <option value="18:30">06:30 مساءً</option>
+                            <option value="19:00">07:00 مساءً</option>
+                            <option value="19:30">07:30 مساءً</option>
+                            <option value="20:00">08:00 مساءً</option>
+                            <option value="20:30">08:30 مساءً</option>
+                            <option value="21:00">09:00 مساءً</option>
+                            <option value="21:30">09:30 مساءً</option>
+                            <option value="22:00">10:00 مساءً</option>
+                            <option value="22:30">10:30 مساءً</option>
+                            <option value="23:00">11:00 مساءً</option>
+                            <option value="23:30">11:30 مساءً</option>
+                            <option value="00:00">12:00 منتصف الليل</option>
                         </select>
                     </div>
 
@@ -125,18 +150,6 @@
                 <h3><i class="fas fa-list"></i> مواعيد اليوم</h3>
                 <div id="todayAppointments">
                     <p class="no-appointments">لا توجد مواعيد محجوزة لهذا اليوم</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Info -->
-        <section class="contact-section">
-            <div class="contact-card">
-                <h3><i class="fas fa-hospital"></i> معلومات العيادة</h3>
-                <div class="contact-info">
-                    <p><i class="fas fa-map-marker-alt"></i> العنوان: [يُحدد لاحقاً]</p>
-                    <p><i class="fas fa-phone-alt"></i> الهاتف: [يُحدد لاحقاً]</p>
-                    <p><i class="fas fa-envelope"></i> البريد الإلكتروني: [يُحدد لاحقاً]</p>
                 </div>
             </div>
         </section>
